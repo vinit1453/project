@@ -1,0 +1,113 @@
+body {
+    background: linear-gradient(to right,#9c27b0,#8ecdff);
+  
+}
+
+.profile h1 {
+    text-align: center;
+}
+
+.header {
+    margin-top: 100px;
+    background: radial-gradient(rgba(238, 143, 151, 0.838), rgb(245, 247, 245));
+    height: fit-content;
+    border-radius: 20%;
+    padding: 5px;
+    
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 200px;
+    margin-left:100px;
+    padding:5px;
+    border:2px dashed rgb(27, 13, 232);
+}
+
+#download {
+    background-color: rgb(236, 15, 15);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    margin-top: 25px;
+}
+
+.details {
+    background-color: rgba(255, 255, 255, 0.841);
+    height: fit-content;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.main {
+    width:fit-content;
+    height:fit-content;
+    width: 75%;
+    margin: 30px 50px;
+    padding: auto;
+}
+
+#d3 ul li {
+    list-style: none;
+}
+
+.footer a{
+    color:#fff;
+    text-decoration: none;
+   
+}
+.footer a:hover{
+border: #fff dashed;
+padding: 5px;
+}
+fieldset{
+border-color: #fff;
+border-radius: 5px;
+    height: 50px;
+width:90%;
+display: flex;
+    justify-content:space-around ;
+    align-items:center;
+}
+legend{
+    color:#fff;
+}
+
+
+@media only screen and (max-width:900px){
+    .profile {
+      width:350px;
+     
+    }
+    .header p{
+        
+        word-break: break-word;
+    }
+    img{
+        margin:15px;
+        width:100px;
+        height: 100px;
+    }
+   
+    fieldset{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around ;
+        align-items:center;
+        margin:auto;
+        width:75%;
+        height: max-content;
+      }
+   
+}

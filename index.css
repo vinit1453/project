@@ -98,6 +98,9 @@ legend{
         width:100px;
         height: 100px;
     }
+     .details {
+        word-break: break-word;
+    }
    
     fieldset{
         
